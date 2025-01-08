@@ -4,3 +4,4 @@ SELECT albums.name AS album_name
     albums.release_date AS release_date
 FROM tracks
 JOIN albums ON tracks.album_id = albums.id
+
